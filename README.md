@@ -7,7 +7,10 @@ Este módulo de Terraform permite crear alarmas de monitoreo para el recurso de 
 DynamoDB (WriteThrottleEvents,SystemErrors,SuccessfulRequestLatency,ReturnedBytes)
 
 dimensions = "MyDynamo"
+
 🚀 Uso del módulo
+
+
 #Llamada al modulo
 module "alarm_DynamoDB_WriteThrottleEvents" {
   source = "./Monitoring_CW_DynamoDB"
