@@ -1,10 +1,18 @@
 # Archivos y carpetas generadas por Terraform
 .terraform/
 *.tfstate
+<<<<<<< HEAD
 *.tfstate.*
 terraform.tfstate
 crash.log
 *.log
+=======
+*.tfvars
+.tfstate.*
+crash.log
+*.log
+terraform.tfstate
+>>>>>>> 34854284a82af8e13964da36fa48b44d2c7dfa87
 override.tf
 override.tf.json
 *_override.tf
