@@ -89,3 +89,6 @@ module "monitoring_dynamodb_ReturnedBytes" {
     TableName = "MyDynamo"
   }
 }
+
+resource:
+https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/Monitoring-metrics-with-Amazon-CloudWatch.html
