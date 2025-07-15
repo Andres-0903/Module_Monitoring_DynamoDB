@@ -1,0 +1,27 @@
+# Archivos y carpetas generadas por Terraform
+.terraform/
+*.tfstate
+*.tfvars
+.tfstate.*
+crash.log
+*.log
+terraform.tfstate
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de variables sensibles
+*.tfvars
+*.pem
+*.key
+
+# Archivos del sistema y editores
+.DS_Store
+*.swp
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.exe
+EOF
